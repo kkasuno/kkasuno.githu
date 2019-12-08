@@ -188,7 +188,7 @@ module Jekyll
           pages = init_pages
         end
 
-        page_header = pages[0].split(@config[:header])
+        page_header = pages[0].try(split(@config[:header]))
         pages[0] = page_header[1] || page_header[0]
         header = page_header[1] ? page_header[0] : ''
 
