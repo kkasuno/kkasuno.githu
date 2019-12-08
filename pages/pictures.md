@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: pictures
 description: Some description.
-permalink: /about/
+permalink: /pictures/
 menu: true
 ---
 
