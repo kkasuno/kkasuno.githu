@@ -14,6 +14,7 @@ category: blog
 tags:
   - welcome
   - blog
+  - code
 author: thiagorossener
 paginate: true
 comments: true
